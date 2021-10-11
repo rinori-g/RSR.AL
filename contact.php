@@ -64,7 +64,7 @@
 				<div class="fullwidth-block">
 					<div class="container">
 					<div id="contact" class="row contact-form">
-							<h2 class="section-title" style="margin: 10px 15px;">Contact Our Experts</h2>
+							<h2 class="section-title" style="margin: 10px 15px;">Contact Us</h2>
 														<?php
 								if (isset($_POST['submitt']))  {
 							

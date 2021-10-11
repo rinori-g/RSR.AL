@@ -33,6 +33,105 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="assets/style/slick.css">
+  <link rel="stylesheet" href="assets/style/slick-theme.css">
+  <style type="text/css">
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.logo-carousel {
+  overflow: inherit;
+  border-top: 1px solid #353535;
+  width:80%;
+  border-bottom: 1px solid #353535;
+
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-track::before,
+.slick-track::after {
+  display: table;
+  content: '';
+}
+
+.slick-track::after {
+  clear: both;
+}
+
+.slick-track {
+  padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  background: url(images/arrow.svg) center no-repeat;
+  color: black;
+  /* filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%); */
+  border: none;
+  width: 2rem;
+  height: 1.5rem;
+  text-indent: -10000px;
+  margin-top: -16px;
+  z-index: 99;
+}
+.slick-arrow:hover{
+	filter:none;
+}
+.slick-arrow.slick-next {
+  right: -40px;
+  transform: rotate(180deg);
+}
+
+.slick-arrow.slick-prev {
+  left: -40px;
+  margin-top:0px;
+}
+.slick-arrow.slick-next:before{
+	
+	filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
+}
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    /* width: 1rem; */
+    height: 1rem;
+  }
+}
+.aaa{
+	display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+  
+.roww {
+  overflow: hidden;
+}  
+
+/* JsFiddle Example only/don't use */
+.logo-carousel {
+  margin-top: 32px;
+}
+
+  </style>
 		<script src="https://kit.fontawesome.com/258d6cdc2a.js" crossorigin="anonymous"></script>
 		<!-- Loading main css file -->
 		<link rel="stylesheet" href="assets/style/style.css">
@@ -59,7 +158,7 @@
 
 			<div class="hero">
 				<ul class="slides">
-					<li data-bg-image="images/lab15.jpeg">
+					<li data-bg-image="images/lab24.jpg">
 						<div class="container">
 							<div class="slide-content">
 								<h2 class="slide-title">Kushtuar teknologjisë. Angazhuar kujdesit.</h2>
@@ -67,7 +166,7 @@
 							</div>
 						</div>
 					</li>
-					<li data-bg-image="images/lab21.png">
+					<li data-bg-image="images/lab21.jpg">
 						<div class="container">
 							<div class="slide-content">
 								<h2 class="slide-title">Pajisje mjekësore të përshtatshme për nevojat tuaja</h2>
@@ -136,7 +235,36 @@
 						</div> <!-- .row -->
 					</div> <!-- .container -->
 				</div> <!-- .fullwidth-block -->
-	
+				<div class="roww container">
+				  <div class="aaa">
+					<section class="logo-carousel slider" data-arrows="true">
+					<div class="slide"><a href="https://www.as-medizintechnik.de/en-US/home/" target="_blank"><img src="images/zoll.jpg"></a></div>
+					<div class="slide"><a href="https://www.zoll.com/"><img src="images/az.jpg"target="_blank"></a></div>
+					<div class="slide"><a href="https://www.rocamed.com/"><img src="images/rocamed.jpg"target="_blank"></a></div>
+					<div class="slide"><a href="https://www.cardinalhealth.com/en.html"target="_blank"><img src="images/cardinalhealth.jpg"></a></div>
+					<div class="slide"><a href="https://www.convatec.com/"target="_blank">	<img src="images/conva.jpg"></a></div>
+					<div class="slide"><a href="https://mec.ohaus.com/en-mec/ "target="_blank"><img src="images/ohaus.jpg"></a></div>
+					<div class="slide"><a href="https://bit.ly/3oSSuKq"target="_blank"><img src="images/metler.jpg"></a></div>
+					<div class="slide"><a href="https://faster-air.com/en/"target="_blank"><img src="images/faster.jpg"></a></div>
+					<div class="slide"><a href="https://www.binder-world.com/us"target="_blank"><img src="images/binder.jpg"></a></div>
+					<div class="slide"><a href="https://www.liebherr.com/en/usa/start/start-page.html"target="_blank"><img src="images/liebherr.jpg"></a></div>
+					<div class="slide"><a href="https://www.evoqua.com/"target="_blank"><img src="images/evoqua.jpg"></a></div>
+					<div class="slide"><a href="https://www.smeg.com/"target="_blank"><img src="images/smeg.jpg"></a></div>
+					<div class="slide"><a href="https://www.micropticsl.com/"target="_blank"><img src="images/microptic.jpg"></a></div>
+					<div class="slide"><a href="https://www.carlroth.com/com/en/"target="_blank"><img src="images/roth.jpg"></a></div>
+					<div class="slide"><a href="https://www.systec-lab.com/"target="_blank"><img src="images/systec.jpg"></a></div>
+					<div class="slide"><a href="http://www.biochrom.co.uk/"target="_blank"><img src="images/biochrom.jpg"></a></div>
+					<div class="slide"><a href="https://www.nabertherm.com/en"target="_blank"><img src="images/nabertherm.jpg"></a></div>
+					<div class="slide"><a href="https://www.spectro.com/"target="_blank"><img src="images/spectro.jpg"></a></div>
+					<div class="slide"><a href="https://www.rossmax.com/en/"target="_blank"><img src="images/rossmax.jpg"></a></div>
+					<div class="slide"><a href="https://www.3bscientific.com/"target="_blank"><img src="images/3bscientific.jpg"></a></div>
+					<div class="slide"><a href="https://www.3dhistech.com/ "target="_blank"><img src="images/3dhistech.jpg"></a></div>
+					<div class="slide"><a href="https://www.hoyavision.com/"target="_blank"><img src="images/ajlo.jpg"></a></div>
+					<div class="slide"><a href="https://ajlsa.com/"target="_blank"><img src="images/hoya.jpg"></a></div>
+					<div class="slide"><a href="https://www.teknomek.co.uk/"target="_blank"><img src="images/teknomek.jpg"></a></div>
+					</section>
+				</div>
+			</div>
 				<div class="fullwidth-block">
 					<div class="container">
 					    <h1 style="text-align: center; text-decoration: underline;">TË REJAT</h1>
@@ -158,7 +286,9 @@
 					</div>
 				</div>
 
-			</main> <!-- .main-content -->
+			</main> 
+		
+			</div><!-- .main-content -->
 			<div class="newsletter" id="newsletter">
 					<div class="container">
 						<div class="newslet">
@@ -253,7 +383,33 @@
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/app.js"></script>
-		
+		<script src="js/slick.js"  type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $('.logo-carousel').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    pauseOnHover: true,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+
+</script>
+
 	</body>
 
 </html>

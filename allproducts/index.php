@@ -1,3 +1,107 @@
+<head>
+  
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="../assets/style/slick.css">
+  <link rel="stylesheet" href="../assets/style/slick-theme.css">
+  <style type="text/css">
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.logo-carousel {
+  overflow: inherit;
+  border-top: 1px solid #353535;
+  width:80%;
+  border-bottom: 1px solid #353535;
+
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-track::before,
+.slick-track::after {
+  display: table;
+  content: '';
+}
+
+.slick-track::after {
+  clear: both;
+}
+
+.slick-track {
+  padding: 1rem 0;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  background: url(../images/arrow.svg) center no-repeat;
+  color: black;
+  /* filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%); */
+  border: none;
+  width: 2rem;
+  height: 1.5rem;
+  text-indent: -10000px;
+  margin-top: -16px;
+  z-index: 99;
+}
+.slick-arrow:hover{
+	filter:none;
+}
+.slick-arrow.slick-next {
+  right: -40px;
+  transform: rotate(180deg);
+}
+
+.slick-arrow.slick-prev {
+  left: -40px;
+  margin-top:0px;
+}
+.slick-arrow.slick-next:before{
+	
+	filter: invert(77%) sepia(32%) saturate(1%) hue-rotate(344deg) brightness(105%) contrast(103%);
+}
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .slick-arrow {
+    /* width: 1rem; */
+    height: 1rem;
+  }
+}
+.aaa{
+	display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+  
+.roww {
+  overflow: hidden;
+}  
+
+/* JsFiddle Example only/don't use */
+.logo-carousel {
+  margin-top: 32px;
+}
+
+  </style>
+</head>
 <?php
 
 	session_start();
@@ -52,7 +156,7 @@
 			<div class="row allcompanies">
 				<?php foreach($categories as $cat): 
 					
-					if ($cat['category'] == "Medical") { // skip even members
+					if ($cat['category'] == "Medical" || $cat['category'] == "Opthamology") { // skip even members
 						continue;
 					}?>
 					
@@ -69,17 +173,52 @@
 				<?php endforeach; ?>
 			</div> <!-- .row -->
 			
-			<?php if($cat['category'] == "Diabet"){ ?>
-				<h2 class="lead-text">DIABET BRANDS</h2>
-					
-					
-					
-					<?php } 
-					elseif($cat['category'] == "Laboratory"){?>
-					<h2 class="lead-text">LABORATORY BRANDS</h2>
+			<?php if($cat['category'] == "Medical"){ ?>
+				<div class="brendet container">
+				<a href="https://www.as-medizintechnik.de/en-US/home/"target="_blank"><img src="../images/zoll.jpg"></a>
+				<a href="https://www.zoll.com/"target="_blank"><img src="../images/az.jpg"></a>
+				<a href="https://www.rocamed.com/"target="_blank"><img src="../images/rocamed.jpg"></a>
+				<a href="https://www.cardinalhealth.com/en.html"target="_blank">	<img src="../images/cardinalhealth.jpg"></a>
+				<a href="https://www.convatec.com/"target="_blank">	<img src="../images/conva.jpg"></a>
+					</div>
+					<br>
+	
+			<?php } 
+			elseif($cat['category'] == "Laboratory"){?>
+					<div class="brendet container">
+					<a href="https://mec.ohaus.com/en-mec/ "target="_blank"><img src="../images/ohaus.jpg"></a>
+					<a href="https://bit.ly/3oSSuKq"target="_blank"><img src="../images/metler.jpg"></a>
+					<a href="https://faster-air.com/en/"target="_blank"><img src="../images/faster.jpg"></a>
+					<a href="https://www.binder-world.com/us"target="_blank"><img src="../images/binder.jpg"></a>
+					<a href="https://www.liebherr.com/en/usa/start/start-page.html"target="_blank"><img src="../images/liebherr.jpg"></a>
+					<a href="https://www.evoqua.com/"target="_blank"><img src="../images/evoqua.jpg"></a>
+					<a href="https://www.smeg.com/"target="_blank"><img src="../images/smeg.jpg"></a>
+					<a href="https://www.micropticsl.com/"target="_blank"><img src="../images/microptic.jpg"></a>
+					<a href="https://www.carlroth.com/com/en/"target="_blank"><img src="../images/roth.jpg"></a>
+					<a href="https://www.systec-lab.com/"target="_blank"><img src="../images/systec.jpg"></a>
+					<a href="http://www.biochrom.co.uk/"target="_blank"><img src="../images/biochrom.jpg"></a>
+					<a href="https://www.nabertherm.com/en"target="_blank"><img src="../images/nabertherm.jpg"></a>
+					<a href="https://www.spectro.com/"target="_blank"><img src="../images/spectro.jpg"></a>
+					<a href="https://www.rossmax.com/en/"target="_blank"><img src="../images/rossmax.jpg"></a>
+					<a href="https://www.3bscientific.com/"target="_blank"><img src="../images/3bscientific.jpg"></a>
+					<a href="https://www.3dhistech.com/ "target="_blank"><img src="../images/3dhistech.jpg"></a>
+					<a href="https://www.as-medizintechnik.de/de-DE/home/"target="_blank"><img src="../images/az.jpg"></a>
+					</div>
 
-					<?php } ?>
-
+					
+			<?php }elseif($cat['category'] == "Opthamology"){ ?>
+				<div class="brendet container">
+				<a href="https://www.hoyavision.com/"target="_blank"><img src="../images/ajlo.jpg"></a>
+				<a href="https://ajlsa.com/"target="_blank"><img src="../images/hoya.jpg"></a>
+				<a href="https://www.teknomek.co.uk/"target="_blank"><img src="../images/teknomek.jpg"></a>
+					</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<?php }?>
 		</div> <!-- .container -->
 					
 	<?php else: ?>
@@ -170,7 +309,35 @@
 		<script src="../js/jquery-1.11.1.min.js"></script>
 		<script src="../js/plugins.js"></script>
 		<script src="../js/app.js"></script>
-		
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  
+		<script src="../js/slick.js"  type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+  $('.logo-carousel').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    pauseOnHover: true,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+
+</script>
+
 	</body>
 
 </html>

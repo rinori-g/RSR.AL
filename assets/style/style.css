@@ -1312,7 +1312,8 @@ form input[type="submit"], form button, form input[type="reset"] {
     .hero .slide-content .slide-title {
       font-size: 60px;
       font-size: 3.5em;
-      font-weight: 300; }
+      font-weight: 300;
+      text-shadow: 2px 2px #161616; }
     .hero .slide-content p {
       font-size: 24px;
       font-size: 1.6em; }
@@ -2058,6 +2059,24 @@ pre ul{
   display: flex;
   flex-direction: row;
 }
+.brendet{
+  border-top: 1px solid rgb(53, 53, 53);
+  border-bottom: 1px solid rgb(53, 53, 53);
+  
+    display: -ms-grid;
+    display: grid;
+    position: relative;
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    row-gap: 2.5rem;
+}
+
+
+.brendet img{
+  width: 200px;
+  height: 200px;
+}
 @media (min-width: 300px) and (max-width: 768px){
   .newslet{
     display: flex;
@@ -2075,5 +2094,16 @@ pre ul{
   }
   .inputi button{
     width: 10%;
+  }.brendet{
+    display: -ms-grid;
+    display: grid;
+    position: relative;
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    row-gap: 2.5rem;
+  }.brendet img{
+    width: 150px;
+    height: 150px;
   }
 }

@@ -37,20 +37,20 @@
 
 			<div class="page-head" data-bg-image="images/about_header.jpg">
 				<div class="container">
-					<h2 class="page-title">RRETH NESH</h2>
+					<h2 class="page-title">ABOUT US</h2>
 				</div>
 			</div>
 
 			<main class="main-content">
 				<div class="fullwidth-block">
 					<div class="container about-container">
-						<h1 class="lead-text">Rreth Nesh</h1>
-						<h1>Për RSR</h1>
-						<p> <strong> Kush është RSR Kosova?</strong> </p>
+						<h1 class="lead-text">About RSR</h1>
+						
+						<p> <strong> Who is RSR Kosova?</strong> </p>
 
-						<p>RSR Kosova është kompani e cila kryesisht meret me importin dhe shpërndarjen e pajisjeve mjekësore, duke shërbyer si distributori primarë për paisjet mjekësore nga brendet më të njohura botërore në këtë industri. </p>
-						<p> RSR Kosova, ndër vite është specializuar në importin dhe shpërndarjen e pajisjeve dhe instrumenteve mjekësore dhe laboratorike. Kompania tani është një përfaqësues i shumë prodhuesve me famë botërore të pajisjeve dhe 
-							aksesorëve mjekësorë nga Britania e Madhe, Franca, Gjermania, Spanja dhe shumë vende të tjera. </p>
+						<p>RSR Kosova is a company which mainly deals with the import and distribution of medical devices, serving as the primary distributor for medical devices from the world's most famous brands in this industry </p>
+						<p> RSR Kosovo, over the years has specialized in the import and distribution of medical and laboratory equipment and instruments. The company is now a representative of many world-famous equipment manufacturers and
+							medical accessories from the UK, France, Germany, Spain and many other countries. </p>
 						<p> <strong> RSR Kosova është përfaqësues për Kosovë i kompanive të mëposhtme:</strong> </p>
 						<ul>
 							<li> <strong> <a href="https://www.convatec.com/" target="_blank">ConvaTec </a> - ConvaTec është kompani e produkteve dhe teknologjive mjekësore, e njohur globalisht, e fokusuar në terapitë për menaxhimin e sëmundjeve kronike, me një pozicion kryesorë në treg për kujdesin e avancuar ndaj plagëve, kujdesin 	</strong> </li>

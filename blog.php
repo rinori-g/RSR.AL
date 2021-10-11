@@ -41,7 +41,7 @@
 				</div>
 			</header>
 
-			<div class="page-head" data-bg-image="images/labss.jpg">
+			<div class="page-head" data-bg-image="images/about_header.jpg">
 				<div class="container">
 					<h2 class="page-title">Our BLOG</h2>
 				</div>
