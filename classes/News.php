@@ -11,7 +11,7 @@ class News{
 
     public function all(){
         $products = []; 
-        $sql = "SELECT * From `blogs-shq`";
+        $sql = "SELECT * From `blogs`";
         $result = $this->mysqli->query($sql);
 
         if($result->num_rows > 0){
@@ -29,7 +29,7 @@ class News{
 
     public function get($id){
         $product = [];
-        $sql = "SELECT * From `blogs-shq` WHERE `id` = '" .$id ."'";
+        $sql = "SELECT * From `blogs` WHERE `id` = '" .$id ."'";
         $result = $this->mysqli->query($sql);
 
         if($result->num_rows > 0){
@@ -41,7 +41,7 @@ class News{
 
     public function getElementByTitle($title){
         $product = [];
-        $sql = "SELECT * From `blogs-shq` WHERE `title` = '" . $title ."'";
+        $sql = "SELECT * From `blogs` WHERE `title` = '" . $title ."'";
         $result = $this->mysqli->query($sql);
 
         if($result->num_rows > 0){

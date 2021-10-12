@@ -161,24 +161,24 @@
 					<li data-bg-image="images/lab24.jpg">
 						<div class="container">
 							<div class="slide-content">
-								<h2 class="slide-title">Kushtuar teknologjisë. Angazhuar kujdesit.</h2>
-								<a href="contact#contact" class="button">Kontakto</a>
+								<h2 class="slide-title">Dedicated to Technology. Committed to care..</h2>
+								<a href="contact#contact" class="button">Contact Us</a>
 							</div>
 						</div>
 					</li>
 					<li data-bg-image="images/lab21.jpg">
 						<div class="container">
 							<div class="slide-content">
-								<h2 class="slide-title">Pajisje mjekësore të përshtatshme për nevojat tuaja</h2>
-								<a href="contact#contact" class="button">Kontakto</a>
+								<h2 class="slide-title">Medical equipment suitable for your needs.</h2>
+								<a href="contact#contact" class="button">Contact Us</a>
 							</div>
 						</div>
 					</li>
 					<li data-bg-image="images/lab20.png">
 						<div class="container">
 							<div class="slide-content">
-								<h2 class="slide-title">Partneri juaj lokal.</h2>
-								<a href="contact#contact" class="button">Kontakto</a>
+								<h2 class="slide-title">Your Local Partner.</h2>
+								<a href="contact#contact" class="button">Contact Us</a>
 							</div>
 						</div>
 					</li>
@@ -200,36 +200,36 @@
 							<div class="col-md-2 col-sm-6">
 								<div class="feature">
 									<img src="images/Icon-Diabetes.png" alt="Diabetes" class="feature-image" width="80px" height="auto">
-									<h2>Diabet</h2>
-									<a href="allproducts?action=category&category=Diabetes" class="button">Zbulo</a>
+									<h2>Diabetes</h2>
+									<a href="allproducts?action=category&category=Diabet" class="button">See more</a>
 								</div>
 							</div>
 							<div class="col-md-2 col-sm-6">
 								<div class="feature">
 									<img src="images/Icon-Medical.png" alt="Medical" class="feature-image" width="80px" height="auto">
-									<h2>Mjekësore</h2>
-									<a href="allproducts?action=category&category=Medical" class="button">Zbulo</a>
+									<h2>Medical</h2>
+									<a href="allproducts?action=category&category=Medical" class="button">See more</a>
 								</div>
 							</div>
 							<div class="col-md-2 col-sm-6">
 								<div class="feature">
 									<img src="images/Icon-Laboratory.png" alt="Laboratory" class="feature-image" width="80px" height="auto">
-									<h2>Laborator</h2>
-									<a href="allproducts?action=category&category=Laboratory" class="button">Zbulo</a>
+									<h2>Laboratory</h2>
+									<a href="allproducts?action=category&category=Laboratory" class="button">See more</a>
 								</div>
 							</div>
 							<div class="col-md-2 col-sm-6">
 								<div class="feature">
 									<img src="images/Icon-Opthamology.png" alt="Opthamology" class="feature-image" width="80px" height="auto">
-									<h2>Okulistikë</h2>
-									<a href="allproducts?action=category&category=Opthamology" class="button">Zbulo</a>
+									<h2>Ophthalmology</h2>
+									<a href="allproducts?action=category&category=Opthamology" class="button">See more</a>
 								</div>
 							</div>
 							<div class="col-md-2 col-sm-6">
 								<div class="feature">
 									<img src="images/Icon-Cardiology.png" alt="Cardiology" class="feature-image" width="80px" height="auto">
-									<h2>Kardiologji</h2>
-									<a href="allproducts?action=category&category=Cardiology" class="button">Zbulo</a>
+									<h2>Cardiology</h2>
+									<a href="allproducts?action=category&category=Cardiology" class="button">See more</a>
 								</div>
 							</div>
 						</div> <!-- .row -->
@@ -239,8 +239,8 @@
 				  <div class="aaa">
 					<section class="logo-carousel slider" data-arrows="true">
 					<div class="slide"><a href="https://www.as-medizintechnik.de/en-US/home/" target="_blank"><img src="images/zoll.jpg"></a></div>
-					<div class="slide"><a href="https://www.zoll.com/"><img src="images/az.jpg"target="_blank"></a></div>
-					<div class="slide"><a href="https://www.rocamed.com/"><img src="images/rocamed.jpg"target="_blank"></a></div>
+					<div class="slide"><a href="https://www.zoll.com/"target="_blank"><img src="images/az.jpg"></a></div>
+					<div class="slide"><a href="https://www.rocamed.com/"target="_blank"><img src="images/rocamed.jpg"></a></div>
 					<div class="slide"><a href="https://www.cardinalhealth.com/en.html"target="_blank"><img src="images/cardinalhealth.jpg"></a></div>
 					<div class="slide"><a href="https://www.convatec.com/"target="_blank">	<img src="images/conva.jpg"></a></div>
 					<div class="slide"><a href="https://mec.ohaus.com/en-mec/ "target="_blank"><img src="images/ohaus.jpg"></a></div>
@@ -267,7 +267,7 @@
 			</div>
 				<div class="fullwidth-block">
 					<div class="container">
-					    <h1 style="text-align: center; text-decoration: underline;">TË REJAT</h1>
+					    <h1 style="text-align: center; text-decoration: underline;">NEWS</h1>
 						<div class="project-list">
 							<?php foreach($blogs as $blog): ?>
 								<div class="project">
@@ -278,7 +278,7 @@
 									<p style="font-size: 0.8rem;"><?= $blog['created_at'] ?></p>
 									<p><?= substr($blog['description'], 0, 85) . "..." ?></strong></p>
 									</div>
-								<a href="blog?action=blog_details&blog_name=<?= $blog['title'] ?>" class="button">Shiko më shumë</a>
+								<a href="blog?action=blog_details&blog_name=<?= $blog['title'] ?>" class="button">See more</a>
 								</div>
 							</div>
 							<?php endforeach; ?>

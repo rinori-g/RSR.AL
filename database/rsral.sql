@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 08, 2021 at 01:31 PM
+-- Generation Time: Oct 12, 2021 at 01:41 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.1
 
@@ -43,7 +43,7 @@ CREATE TABLE `blogs` (
 INSERT INTO `blogs` (`id`, `blog_photo`, `title`, `category`, `description`, `created_at`) VALUES
 (1, 'rsr_biognost.jpg', 'COVID-19 Rapid Antigen Test', 'Covid-19', 'RSR Kosova as a local partner of Biognost – Croatia of their Antigen Test COVAG020. \r\nCoviGnost AG is a qualitative chromatographic immunoassay for detection of SARS-CoV-2 antigens in human nasopharyngeal swab specimens during the acute phase of infection.\r\n   • The test is intended for use by trained clinical laboratory personnel\r\n   • For professional in vitro diagnostic use only\r\n   • All equipment included\r\n   • Reporting time - up to 15 minutes\r\n   • Sensitivity - 96.4%  or\r\n   • Specificity - 99.2%  or\r\n   • Accuracy - 98.0%\r\n   • CE mark for in vitro medical devices according to Directive 98/79 / EEC', '2021-04-06'),
 (2, 'zoll_aed.jpg', 'The ZOLL AED with enhanced CPR feedback ', 'CPR Help', 'The ZOLL AED 3® defibrillator leads the way with Real CPR Help® technology, which provides real-time feedback to guide rescuers in delivering high-quality CPR. The innovative, intuitive design and enhanced features of ZOLL AED 3 gives unexpected heroes both the confidence and the knowledge needed to treat sudden cardiac arrest (SCA).\r\n\r\n<strong>- Enhanced Real CPR Help</strong>\r\nProven Real CPR Help technology helps rescuers deliver high-quality CPR. ZOLL AED 3 has a full-color display with vivid rescue images, a CPR cycle timer, and a large color bar gauge that shows CPR compression depth. In addition to displaying integrated, real-time CPR feedback, the ZOLL AED 3 screen also includes one-of-a-kind intuitive touchscreen capabilities. The touchscreen allows quick access to AED information and enables configuration without the need for additional external devices or software.\r\n\r\n<strong>- Integrated Pediatric Rescue</strong>\r\nThe universal design of the CPR Uni-padz® electrodes gives rescuers a single solution for both adult and pediatric victims of SCA. To treat a child, use the same set of pads and simply activate child mode.\r\n\r\n<strong>- WiFi-connected</strong>\r\nCloud connectivity can enable automatic reporting of device status, giving you confidence your AED is ready in an emergency. WiFi also provides the ability to quickly access and transmit cardiac arrest event data to medical professionals.\r\n\r\n<strong>- Product Features</strong>\r\n   • Enhanced Real CPR Help technology provides real-time CPR feedback on the rate and depth of chest compressions\r\n   • Text and voice prompts provide visual and audible feedback to the rescuer on CPR quality\r\n   • High-resolution LCD touchscreen display with vivid rescue images provides visual guidance to responders\r\n   • A CPR cycle timer and a large color bar gauge show CPR compression depth\r\n   • Universal one-piece CPR Uni-padz electrodes feature a 5-year shelf life\r\n   • 8-second pre-shock analysis pause reduces overall pauses during the rescue\r\n   • Built-in WiFi connectivity can automatically report device readiness and offer fast access to clinical event data, including CPR performance data\r\n   • Integrated pediatric rescue: CPR Uni-padz and child-mode selection softkey offers one solution to treat both adults and children\r\n   • Built to withstand extreme temperatures and altitude, vibration, and shock\r\n   • Rugged design features an IP (ingress protection) rating of IP55 for dust and water\r\n   • 5-year smart battery can report its power status', '2021-04-06'),
-(17, 'zoll_aed.jpg', 'Instruments and Cassets AS Medizintechnik tani në Kosovë.', 'CPR Help', 'Instruments and Cassets AS Medizintechnik tani në Kosovë.', '2021-10-07');
+(17, 'zoll_aed.jpg', 'New sterilization system from AS Medizintechnik GmbH', 'CPR Help', 'The new sterilization system from AS Medizintechnik GmbH is suitable for safe, fast and intuitive daily care, treatment and durability.\r\nIt is stable, safe in maintaining sterility, reliable, saves time and safety for stress-free work. It is logically organized from A to Z with intelligent components and equipment compatible with the system, with cleaning and hygienic properties.\r\nThe new sterilization system meets the important criteria (national and international) in terms of sterile barriers and packaging system, according to:\r\nISO 11607-1 and 11607-2\r\nEN 868 -8\r\nDIN 58953-9\r\nMDD 93/42 / EEC', '2021-10-07');
 
 -- --------------------------------------------------------
 
@@ -67,7 +67,7 @@ CREATE TABLE `blogs-shq` (
 INSERT INTO `blogs-shq` (`id`, `blog_photo`, `title`, `category`, `description`, `created_at`) VALUES
 (15, 'rsr_biognost.jpg', 'Testi i shpejtë i antigjenit COVID-19', 'Covid-19', 'RSR Kosova si një partner lokal i Biognost – Kroacia  me Testit të tyre të Antigjenit COVAG020.\r\nCoviGnost AG është një imunotemë cilësore kromatografike për zbulimin e antigjeneve SARS-CoV-2 në ekzemplarët e shtupave nazofaringeale njerëzore gjatë fazës akute të infeksionit.\r\n   • Testi ka për qëllim përdorimin nga personeli i trajnuar i laboratorit klinik\r\n   • Vetëm për përdorim profesional diagnostikues \r\n   • Të gjitha pajisjet e përfshira\r\n   • Koha e raportimit - deri në 15 minuta\r\n   • Ndjeshmëria - 96.4% ose\r\n   • Specifikimi - 99.2% ose\r\n   • Saktësia - 98.0%\r\n   • Shenja CE për pajisjet medicinale in vitro sipas Direktivës 98/79 / KEE', '2021-04-06'),
 (16, 'zoll_aed.jpg', 'ZOLL AED me reagime të zgjeruara CPR', 'CPR Help', 'Defibrilator ZOLL AED 3® udhëheq rrugën me teknologjinë Real CPR Help®, e cila siguron reagime në kohë reale për të drejtuar ekipet e shpëtimit në shpërndarjen e CPR me cilësi të lartë. Dizajni inovativ, intuitiv dhe tiparet e zgjeruara të ZOLL AED 3 u japin heronjve të papritur si besimin ashtu edhe njohuritë e nevojshme për të trajtuar arrestin e papritur kardiak (SCA).\r\n\r\n<strong>Ndihma e sofistikuar CPR</strong>\r\nTeknologjia e Provës se sofistikuar  CPR , ndihmon ekipet e shpëtimit të dorëzojnë CPR me cilësi të lartë. ZOLL AED 3 ka një ekran me ngjyra të plota me imazhe të gjalla shpëtimi, një kohëmatës të ciklit CPR dhe një matës të madh të shiritave me ngjyra që tregon thellësinë e kompresimit të CPR. Përveç shfaqjes së reagimeve të integruara, në kohë reale të CPR, ekrani ZOLL AED 3 gjithashtu përfshin aftësi të prekjes intuitive të një lloji. Ekrani me prekje lejon qasje të shpejtë në informacionin AED dhe mundëson konfigurimin pa pasur nevojë për pajisje shtesë të jashtme ose softuer.', '2021-04-06'),
-(18, 'zoll_aed.jpg', 'Instruments and Cassets AS Medizintechnik tani në Kosovë.', 'AS Medizintechnik ', 'Instruments and Cassets AS Medizintechnik tani në Kosovë.', '2021-10-07');
+(18, 'az.jpg', 'Instruments and Cassets AS Medizintechnik tani në Kosovë.', 'AS Medizintechnik ', 'Sistemi i ri i sterilizimit nga AS Medizintechnik GmbH \r\n\r\nSistemi i ri i sterilizimit nga AS Medizintechnik GmbH është i përshtatshëm në pëditshmëri, trajtim dhe qëndrueshmëri të sigurtë, të shpejtë dhe intuitive. \r\n\r\nËshtë stabil, i sigurtë në ruajtjen e sterilitetit, i besueshëm, kursen kohë dhe siguri për punë pa stres. Është logjikisht i organizuar nga A në Z me komponentë dhe pajisje të zgjuara të pajtueshme me sistemin, me veti pastruese dhe higjienike. \r\n\r\nSistemi i ri i sterilizimit përmbush kriteret (nacionale dhe internacionale) të rëndësishme në terme të barrierave sterile dhe sistemit të paketimit, simbas:  \r\n\r\nISO 11607-1 and 11607-2 \r\nEN 868 -8 \r\nDIN 58953-9 \r\nMDD 93/42/EEC \r\n\r\n Për më shume, ne do te iu ndihmojmë të bëni zgjedhjen e duhur! ', '2021-10-11');
 
 -- --------------------------------------------------------
 
@@ -92,7 +92,8 @@ INSERT INTO `categories` (`id`, `name`, `image`, `category`, `category_short`) V
 (2, 'Industrial', 'industrial.png', 'Laboratory', 'industrial'),
 (5, 'Coming Soon', 'diabetlogo.png', 'Diabet', 'fdwef'),
 (6, 'Coming Soon', 'cardiology.png', 'Cardiology', 'sd'),
-(7, 'dd', 'dd', 'Medical', 'dd');
+(7, 'dd', 'dd', 'Medical', 'dd'),
+(8, 'dd', 'dd', 'Opthamology', 'dd');
 
 -- --------------------------------------------------------
 
@@ -374,7 +375,7 @@ ALTER TABLE `blogs-shq`
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `companies`

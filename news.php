@@ -59,7 +59,7 @@
 
 			<div class="page-head" data-bg-image="images/header_news.png">
 				<div class="container">
-					<h2 class="page-title">TË REJAT</h2>
+					<h2 class="page-title">NEWS</h2>
 				</div>
 			</div>
 
@@ -76,7 +76,7 @@
 										<p style="font-size: 0.8rem;"><?= $blog['created_at'] ?></p>
 										<p><?= substr($blog['description'], 0, 85) . "..." ?></strong></p>
 										</div>
-									<a href="blog?action=blog_details&blog_name=<?= $blog['title'] ?>" class="button">Shiko më shumë</a>
+									<a href="blog?action=blog_details&blog_name=<?= $blog['title'] ?>" class="button">See more</a>
 									</div>
 								</div>
 							<?php endforeach; ?>
