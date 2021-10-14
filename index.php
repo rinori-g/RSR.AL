@@ -13,7 +13,7 @@
 			$_SESSION['category_name'] = $_GET['category'];
 		}
 		else{
-			$errors[] = "Product doesn't exist";
+			$errors = "Product doesn't exist";
 		}
 	}
 

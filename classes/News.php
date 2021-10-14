@@ -10,7 +10,7 @@ class News{
     }
 
     public function all(){
-        $products = []; 
+      
         $sql = "SELECT * From `blogs`";
         $result = $this->mysqli->query($sql);
 
