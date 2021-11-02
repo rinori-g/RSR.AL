@@ -27,6 +27,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		<meta property="og:image" content="./images/favico.png">
 		
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1024">
+		<meta property="og:image:height" content="1024">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://www.rsr.al/"/>
+		<meta property="og:title" content="RSR Kosova" />
+		<meta property="og:description" content="RSR Kosova is a company which mainly deals with the import and distribution of medical devices,
+								 serving as the primary distributor for medical devices from the world's most famous brands in this industry" />
+	
+
 		<title>RSR Kosova</title>
 
 		<!-- Loading third party fonts -->

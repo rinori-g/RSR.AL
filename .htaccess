@@ -1,4 +1,4 @@
-DirectoryIndex index.php
+DirectoryIndex test.php
 
 Options +MultiViews
 RewriteEngine On
